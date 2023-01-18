@@ -1,7 +1,11 @@
+import Form from "./components/Form";
+import Global from "./globalStyle/global";
+
 const App = () => {
   return (
     <div className="App">
-      <h1>Simulador de antecipação</h1>
+      <Global />
+      <Form />
     </div>
   );
 };
